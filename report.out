@@ -2,9 +2,10 @@
 \BOOKMARK [1][-]{section.2}{Related work}{}% 2
 \BOOKMARK [1][-]{section.3}{Methodology}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Resizing Images}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Generating Patches}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{CNN with regression on top}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.4}{Use of clustering and classification}{section.3}% 7
-\BOOKMARK [1][-]{section.4}{Testing}{}% 8
-\BOOKMARK [1][-]{section.5}{Empirical results}{}% 9
-\BOOKMARK [1][-]{section.6}{Final discussion}{}% 10
+\BOOKMARK [2][-]{subsection.3.2}{L-a-b color space}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Generating Patches}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{CNN with regression on top}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{Use of clustering and classification}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Testing}{}% 9
+\BOOKMARK [1][-]{section.5}{Empirical results}{}% 10
+\BOOKMARK [1][-]{section.6}{Final discussion}{}% 11

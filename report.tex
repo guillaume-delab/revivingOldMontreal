@@ -78,7 +78,8 @@ Multiple transformations are undergone before the datasets at hand are usable:
 
 \subsection{Resizing Images}
 Input images vary greatly in terms of their size, and such variations would lead to inconsistent content of generated patches. We alter the size of images by resizing them to have a maximum dimension of 600 pixels.
-L-a-b color space:
+
+\subsection{L-a-b color space}
 Usually a pixel color has 3 degrees of freedom, represented by the 3 channels red - blue - green (RGB). However, for each pixel that we want to color, we already know its grayscale, which removes one degree of freedom and leaving only two values to predict. To handle that, we used the L-a-b color space, which is a mapping of the RGB space, in which L is the luminance channel, so basically an equivalent of the level of gray. 
 
 That being given, we only have to train our methods to learn values of a and b on each pixel. Then we can use the L value (that we can infer from the grayscale value of the pixel) to get the whole L-a-b value, and translate it back in RGB. 
